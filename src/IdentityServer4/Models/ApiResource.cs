@@ -91,6 +91,8 @@ namespace IdentityServer4.Models
             {
                 Enabled = Enabled,
                 Name = Name,
+                Description = Description,
+                DisplayName = DisplayName,
                 ApiSecrets = ApiSecrets,
                 Scopes = new HashSet<Scope>(scopes.ToArray()),
                 UserClaims = UserClaims
